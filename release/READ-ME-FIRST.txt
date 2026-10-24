@@ -1,0 +1,30 @@
+fp EL Zone / False Color toggle + legends
+SIGMA fp firmware Ver.5.02 ONLY (not the fp L, not other versions).
+Unofficial, not affiliated with SIGMA. RAM only: nothing is written to flash.
+
+INSTALL
+1. In the camera: Menu -> Custom -> button settings, assign False Color to a
+   button.
+2. Copy AutoRun.txt to the root of the SD card (only one AutoRun.txt).
+3. Camera off, battery out 10 seconds, battery in, start the camera.
+   Wait for "fp ELZone/FC ready" the first time.
+
+USE (on the button assigned to False Color)
+  short press          colours on / off
+  half-second hold     show or hide the legend while the colours are on
+                       (a hold while off turns on colours and legend)
+  The legend comes back as you left it; after each start it begins hidden.
+  EL ZONE style shows the EL Zone legend, FALSE COLOR style the False Color
+  legend. EL Zone labels beyond clipping are red: +4..+6 at ISO 100/200,
+  +6 at ISO 400/3200.
+
+REMOVE
+Delete AutoRun.txt, take the battery out for 10 seconds, start again.
+The power switch alone keeps the card in memory: always pull the battery
+when removing it or changing to a different card.
+
+If it freezes or glitches: power off, remove the battery and AutoRun.txt,
+wait 10 seconds and restart without it.
+
+Source, details and tests:
+https://github.com/uben001/fp-ELZone-FalseColor-toggle-legends

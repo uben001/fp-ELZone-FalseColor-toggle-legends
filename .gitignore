@@ -1,0 +1,12 @@
+# Never commit the SIGMA firmware, the image unpacked from it, or build output.
+# The ready-made card is attached to GitHub releases, not the source tree.
+/analysis/
+/reference/
+/builds/
+/src/fcscale_native.inc.S
+*.bin
+*.BIN
+/.venv/
+__pycache__/
+*.pyc
+.DS_Store
